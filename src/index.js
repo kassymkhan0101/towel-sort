@@ -15,5 +15,5 @@ module.exports = function towelSort (matrix) {
           c.push(i[k])
       }}
   }
-    return c;}
+    console.log("my ans is ", c)}
 }
