@@ -6,6 +6,8 @@ module.exports = function towelSort (matrix) {
     if(!matrix || matrix.length == 0){
     return c;}
     else{
+        console.log("-----Start-----");
+        console.log(matrix)
     for(i=0; i<matrix.length; i++){
         if(i+1%2==1){
            for(j=0; j<matrix[i].length; j++){
@@ -18,6 +20,7 @@ module.exports = function towelSort (matrix) {
         
     }
         console.log(c);
+        console.log("-----End-----");
         return c;
     }
 }
