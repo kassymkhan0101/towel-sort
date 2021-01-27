@@ -3,9 +3,14 @@
 
 module.exports = function towelSort (matrix) {
   var c = []
-  for(i=0; i< matrix.length; i++){
-      for(k=0; k< i.length; k++){
+  for(i=1; i< matrix.length+1; i++){
+      if(i%2 == 1){
+      for(k=1; k< i.length; k++){
           c.push[i[k]]
-      }
+      }}
+      else{
+      for(k=i.length; k>0; k--){
+          c.push[i[k]]
+      }}
   }
 }
