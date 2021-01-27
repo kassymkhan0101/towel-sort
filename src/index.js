@@ -13,7 +13,7 @@ module.exports = function towelSort (matrix) {
            for(j=0; j<matrix[i].length; j++){
                c.push(matrix[i][j])
            }}else{
-               for(k=matrix[i].length; k>0; k--){
+               for(k=matrix[i].length-1; k>=0; k--){
                c.push(matrix[i][k])
            }
         }
