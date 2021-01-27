@@ -9,7 +9,7 @@ module.exports = function towelSort (matrix) {
         console.log("-----Start-----");
         console.log(matrix)
     for(i=0; i<matrix.length; i++){
-        if(i+1%2==1){
+        if((i+1)%2==1){
            for(j=0; j<matrix[i].length; j++){
                c.push(matrix[i][j])
            }}else{
